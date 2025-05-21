@@ -1,0 +1,86 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 50px;
+  direction: rtl;
+}
+
+.calculator {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+button {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #34495e;
+}
+
+.open-modal {
+  background-color: #2980b9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  margin: 20px auto;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 90%;
+  position: relative;
+  text-align: right;
+}
+
+.close {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
